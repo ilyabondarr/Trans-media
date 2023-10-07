@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./adaptiv.css">
+    <title>Троллейбусы</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="header__bg">
+                <div class="head"><img src="pr_home.gif" alt="1"></div>
+            </div>
+            <hr>
+            </hr>
+            <ul>
+                <li><a href="trans_media.html">ГЛАВНАЯ</a></li>
+                <li><a href="obzor.html">ОБЗОР</a></li>
+                <li><a href="avtobus.html">ВИДЫ ТРАНСПОРТА</a></li>
+                <li><a href="tehnologiya.html">ТЕХНОЛОГИЯ</a></li>
+                <li><a href="portfolio.html">ПОРТФОЛИО</a></li>
+            </ul>
+            <hr>
+            </hr>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="row hero__row">
+                        <a href="./tramvai.html" class="hero__link hero__link-1" onclick="resize(this)">
+                            <img src="gif/tram_1.gif" alt="" class="hero__img hero__img-1">
+                            <div class="hero__line"></div>
+                        </a>
+                        <a href="./trolleibus.html" class="hero__link hero__link-2" onclick="resize2(this)">
+                            <img src="gif/troll_1.gif" alt="" class="hero__img hero__img-2">
+                            <div class="hero__line"></div>
+                        </a>
+                        <a href="./avtobus.html" class="hero__link hero__link-3" onclick="resize3(this)">
+                            <img src="gif/avt_1.gif" alt="" class="hero__img hero__img-3">
+                            <div class="hero__line"></div>
+                        </a>
+                        <a href="./marshrut.html" class="hero__link hero__link-4" onclick="resize4(this)">
+                            <img src="gif/marsh_1.gif" alt="" class="hero__img hero__img-4">
+                            <div class="hero__line"></div>
+                        </a>
+                        <a href="./koop.html" class="hero__link hero__link-5" onclick="resize5(this)">
+                            <img src="gif/gaz_1.gif" alt="" class="hero__img hero__img-5">
+                            <div class="hero__line"></div>
+                        </a>
+                    </div>
+                    <div class="row hero__list">
+                        <div class="hero__text">трамваи</div>
+                        <div class="hero__text">троллейбусы</div>
+                        <div class="hero__text">автобусы</div>
+                        <div class="hero__text hero__text-lh">маршрутные <br> такси</div>
+                        <div class="hero__text hero__text-lh">корпоративный транспорт</div>
+                    </div>
+                </div>
+            </section>
+            <section class="last-work">
+                <div class="row last-work__row">
+                    <div class="last-work__left-block">
+                        <div class="last-work__text">последние работы</div>
+                        <div class="last-work__images">
+                            <div class="last-work__link-1" onclick="openPopup('07_2011/t_sarova.jpg')">
+                                <img src="gif/avt/ro_1.gif" alt="" class="last-work__img last-work__link-1">
+                            </div>
+                            <div href="" class="last-work__link-2" onclick="openPopup('portfolio/1/x_ik_003.jpg')">
+                                <img src="gif/avt/ro_2.gif" alt="" class="last-work__img">
+                            </div>
+                            <div href="" class="last-work__link-3" onclick="openPopup('07_2011/m_nss_lh.jpg')">
+                                <img src="gif/avt/ro_3.gif" alt="" class="last-work__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-work__right-block">
+                        <img src="image/trans/troll_01.jpg" alt="" class="last-work__bus-img">
+                        <img src="gifa/cl.gif" alt="" class="last-work__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="copyright">
+                <p>TRANSMEDIA © 2004</p>
+            </div>
+            <div class="footer-info">
+                <div>
+        </footer>
+        <div class="popup">
+            <img src="" alt="" class="popup__foto">
+            <div class="overlay" onclick="closePopup()"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

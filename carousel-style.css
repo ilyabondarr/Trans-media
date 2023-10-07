@@ -1,0 +1,163 @@
+@media screen and (max-width: 911px) {
+  .portfolio-container {
+    max-width: 646px;
+    margin: 0 auto;
+  }
+  .ant-carousel-element {
+    max-width: 646px;
+  }
+
+  .ant-carousel {
+    max-width: 646px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .portfolio-container {
+    max-width: 525px;
+  }
+  .ant-carousel-element {
+    max-width: 525px;
+  }
+
+  .ant-carousel {
+    max-width: 525px;
+  }
+}
+
+@media screen and (max-width: 669px) {
+  .portfolio-container {
+    max-width: 404px;
+  }
+  .ant-carousel-element {
+    max-width: 404px;
+  }
+
+  .ant-carousel {
+    max-width: 404px;
+  }
+}
+@media screen and (max-width: 548px) {
+  .portfolio-container {
+    max-width: 283px;
+  }
+  .portfolio-title {
+    font-size: 10px;
+  }
+  .ant-carousel-element {
+    max-width: 283px;
+  }
+
+  .ant-carousel {
+    max-width: 283px;
+  }
+}
+@media screen and (max-width: 427px) {
+  .portfolio-container {
+    max-width: 162px;
+  }
+  .portfolio-title {
+    font-size: 8px;
+    padding: 5px 10px 5px;
+  }
+  .ant-carousel-element {
+    max-width: 162px;
+  }
+
+  .ant-carousel {
+    max-width: 162px;
+  }
+
+}
+.portfolio-title {
+  text-align-last: left;
+}
+
+.ant-carousel {
+  margin: 0 auto auto;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.ant-carousel-element {
+  width: 760px;
+  text-align: center;
+}
+
+/* General styles */
+.ant-carousel {
+  width: auto;
+  position: relative;
+}
+
+.ant-carousel-hider {
+  overflow: hidden;
+}
+
+.ant-carousel-list {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ant-carousel-element {
+  display: block;
+  flex: 0 0 auto;
+}
+
+/* Navigation item styles */
+div.ant-carousel-arrow-left,
+div.ant-carousel-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 32;
+}
+
+div.ant-carousel-arrow-left {
+  left: -40px;
+  top: 40%;
+  display: block;
+  background: url("left.svg") no-repeat;
+}
+
+div.ant-carousel-arrow-right {
+  right: -40px;
+  top: 40%;
+  display: block;
+  background: url("right.svg") no-repeat;
+}
+
+div.ant-carousel-arrow-left:hover {
+  opacity: 1;
+}
+
+div.ant-carousel-arrow-right:hover {
+  opacity: 1;
+}
+
+div.ant-carousel-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  z-index: 30;
+  text-align: center;
+}
+
+span.ant-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+}

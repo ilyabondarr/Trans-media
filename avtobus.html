@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./adaptiv.css">
+    <title>Автобусы</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+			<div class="header__bg">
+				<div class="head"  ><img src="pr_home.gif" alt="1"></div>
+			</div>
+			<hr>
+			</hr>
+			<ul>
+				<li><a href="trans_media.html">ГЛАВНАЯ</a></li>
+				<li><a href="obzor.html">ОБЗОР</a></li>
+				<li><a href="avtobus.html">ВИДЫ ТРАНСПОРТА</a></li>
+				<li><a href="tehnologiya.html">ТЕХНОЛОГИЯ</a></li>
+				<li><a href="portfolio.html">ПОРТФОЛИО</a></li>
+			</ul>
+			<hr>
+		</hr>
+	</header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="row hero__row">
+                        <a href="./tramvai.html" class="hero__link hero__link-1" onclick="resize(this)">
+                            <img src="gif/tram_1.gif" alt="" class="hero__img hero__img-1">
+                            <div class="hero__line "></div>
+                        </a>
+                        <a href="./trolleibus.html" class="hero__link hero__link-2" onclick="resize2(this)">
+                            <img src="gif/troll_1.gif" alt="" class="hero__img hero__img-2">
+                            <div class="hero__line "></div>
+                        </a>
+                        <a href="./avtobus.html" class="hero__link hero__link-3" onclick="resize3(this)">
+                            <img src="gif/avt_1.gif" alt="" class="hero__img hero__img-3">
+                            <div class="hero__line "></div>
+                        </a>
+                        <a href="./marshrut.html" class="hero__link hero__link-4" onclick="resize4(this)">
+                            <img src="gif/marsh_1.gif" alt="" class="hero__img hero__img-4">
+                            <div class="hero__line "></div>
+                        </a>
+                        <a href="./koop.html" class="hero__link hero__link-5" onclick="resize5(this)">
+                            <img src="gif/gaz_1.gif" alt="" class="hero__img hero__img-5">
+                            <div class="hero__line "></div>
+                        </a>
+                    </div>
+                    <div class="row hero__list">
+                        <div class="hero__text">трамваи</div>
+                        <div class="hero__text">троллейбусы</div>
+                        <div class="hero__text">автобусы</div>
+                        <div class="hero__text hero__text-lh">маршрутные такси</div>
+                        <div class="hero__text hero__text-lh">корпоративный транспорт</div>
+                    </div>
+                </div>
+            </section>
+            <section class="last-work">
+                <div class="row last-work__row">
+                    <div class="last-work__left-block">
+                        <div class="last-work__text">последние работы</div>
+                        <div class="last-work__images">
+                            <div  class="last-work__link-1" onclick="openPopup('07_2011/t_sarova.jpg')">
+                                <img src="gif/avt/ro_1.gif" alt="" class="last-work__img last-work__link-1">
+                            </div>
+                            <div href="" class="last-work__link-2" onclick="openPopup('portfolio/1/x_ik_003.jpg')">
+                                <img src="gif/avt/ro_2.gif" alt="" class="last-work__img">
+                            </div>
+                            <div href="" class="last-work__link-3" onclick="openPopup('07_2011/m_nss_lh.jpg')">
+                                <img src="gif/avt/ro_3.gif" alt="" class="last-work__img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-work__right-block flex">
+                        <img src="image/trans/a_01.jpg" alt="" class="last-work__bus-img">
+                        <div class="last-work__text-block last-work__right-text--pl">
+                            <div class="last-work__right-text">
+                                Автобусы – один из самых распространенных видов городского транспорта в Нижнем
+                                Новгороде.
+                            </div>
+                            <div class="last-work__right-text">
+                                Они и маршрутные такси выступают <br>
+                                в роли «связующего звена» между заречной и нагорной частью <br>
+                                Нижнего Новгорода, осуществляя 90% трафика между нижней и верхней частью города.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="advertising">
+                <div class="advertising__container">
+                    <h1 class="card">АВТОБУС КАК НОСИТЕЛЬ РЕКЛАМЫ</h1>
+                    <div class="row">
+                        <div class="advertising__left-block">
+                            <img src="gif/avt/1_1.gif" alt="">
+                            <div class="orange-line"></div>
+                        </div>
+                        <div class="advertising__right-block">
+                            <div class="row advertising__row">
+                                <div class="advertising__pros">
+                                    <img src="gif/sign/m_0.gif" alt="" class="plus">
+                                    <div class="advertising__left-text">
+                                        Приемлемая, по сравнению с электротранспортом, <br> цена. <br>
+                                        Самый распространенный вид транспорта. <br>
+                                        Большое количество маршрутов, есть из чего выбрать.
+                                    </div>
+                                </div>
+                                <div class="advertising__minuses">
+                                    <img src="gif/sign/m_.gif" alt="" class="minus">
+                                    <div class="advertising__right-text">Несколько большее, по сравнению <br>
+                                        с электротранспортом, загрязнение <br>
+                                        поверхности.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="templates">
+                <div class="templates__container">
+                    <h1 class="card">ШАБЛОНЫ</h1>
+                    <div class="templates__left-block">
+                        <div class="orange-line templates__orange-line"></div>
+                    </div>
+                    <div class="templates__right-block">
+                        <img src="gif/transs/liaz_5256.gif" alt="" class="templates__img">
+                        <div class="row templates__row">
+                            <a href="shablon/liaz_5256.zip" class="templates__link">ЛиАЗ_5256</a>
+                            <div class="templates__archive">
+                                - загрузить архив (eps)
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+            <section class="routes">
+                <div class="routes__container">
+                    <h1 class="card">МАРШРУТЫ</h1>
+                    <div class="routes__list">
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 1</div>
+                                <div class="routes__text">Пл. Минина и Пожарского – Щербинки</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                пл. Минина и Пожарского – ул. Варварская – пл. Свободы – пл. Горького – ул. Б.
+                                Покровская – пл. Лядова – пр-т Гагарина – пр-т Ак. Сахарова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 2</div>
+                                <div class="routes__text">Верхние Печеры – Щербинки</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул. Богдановича – Казанское ш. - Ул. Касьянова – ул. Верхнепечёрская – ул. Бринского
+                                (обратно – ул. Лопатина) – Казанское ш. – ул. Родионова – Сенная пл. - ул. Белинского -
+                                пл. Лядова –
+                                пр-т Гагарина – пр-т Ак. Сахарова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 3</div>
+                                <div class="routes__text">Пл. Свободы – «Красное Сормово»</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                пл.Свободы - ул.Варварская - пл.Минина и Пожарского - Зеленский съезд -
+                                Нижневолжская наб. - Канавинский мост - пл. Ленина – ул. Советская – Московское ш. –
+                                ул. Героя Рябцева – ул. Ярошенко – ул. Чаадаева – ул. Мирошникова – ул. Циолковского –
+                                ул. Культуры – ул. Коминтерна – ул. Баррикад (обратно ул. Свободы)
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 4</div>
+                                <div class="routes__text">Верхние Печеры – ул. Долгополова</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Верхние Печеры – ул. Долгополова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 5</div>
+                                <div class="routes__text">Речной вокзал - Подновье</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Нижневолжская наб. – ул. Красная Слобода – наб. Гребного канала
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 6</div>
+                                <div class="routes__text">«Красное Сормово» - Торфопредприятие</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Свободы (обратно ул.Баррикад) - ул.Коминтерна - ул.Культуры - ул.Федосеенко
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 7</div>
+                                <div class="routes__text">Мещерское озеро – Приокский</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Мещерский б-р – ул. Акимова – ул. Мурашкинская – ул. Советская – пл. Революции –
+                                ул. Долгополова (обратно ул. Литвинова) – ул. Июльских дней – Комсомольская пл. – ул.
+                                Молитовская – ул. Баумана – ул. Героя Попова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 8</div>
+                                <div class="routes__text">«Красное Сормово» - 7-й микрорайон (полукольцевой, навстречу
+                                    35-му)</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Свободы – ул. Коминтерна – ул. Культуры – ул. Федосеенко - … - пр-т
+                                Кораблестроителей – пр-т 70 лет Октября – ул. Светлоярская – ул. Культуры – ул.
+                                Коминтерна – ул. Баррикад
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 9</div>
+                                <div class="routes__text">Пл. Минина и Пожарского – ЗКПД-4</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пл. Минина и Пожарского – Зеленский съезд – Нижневолжская наб. – Канавинский мост –
+                                пл. Ленина – ул. Советская – ул. Должанская – ул. Мурашкинская – ул. Акимова – ул.
+                                Куйбышева – Сормовское ш. – ул. Коминтерна – пер. Союзный – ул. Героя Сутырина – ул.
+                                Баренца – ул. Стрелкова – пр-т Кораблестроителей – дорога на ЗКПД-4
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 10</div>
+                                <div class="routes__text">Московское шоссе – Дубравная</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                л. Героя Рябцева – ул. Героя Давыдова – ул. Просвещенская – ул. 50 лет Победы
+                                (обратно – ул. Страж Революции) – ул. Коминтерна – ул. Свободы – ул. Хальзовская – ул.
+                                КИМа –
+                                ул. Ясная – ул. Землячки – ул. Ужгородская
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 11</div>
+                                <div class="routes__text">Ул. Дружаева – Аэропорт</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Пермякова – пр-т Бусыгина – ул.Дьяконова – пр-т Октября – ул.Веденяпина –
+                                Южное шоссе – ул. Гайдара – ул.Ореховская - ул.Безводная
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 15</div>
+                                <div class="routes__text">Метро «Автозаводская» – Ивановка</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пр-т Ленина – пр-т Ильича – ул. Красноуральская (обратно ул. Краснодонцев) –
+                                пр-т Молодёжный – ул. Восточная
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 17</div>
+                                <div class="routes__text">Ул. Долгополова – пос. Березовский</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Литвинова (обратно пл.Революции – ул.Прокофьева – ул.Долгополова) – ул.Советская –
+                                Московское ш. – ул.Кузбасская – ул.Электровозная
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 19</div>
+                                <div class="routes__text">Высоково - Дачный</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Высоковский пр-д – ул. Республиканская – ул. Полтавская – ул. Белинского – Сенная пл. –
+                                ул. Минина – пл. Минина и Пожарского – Зеленский съезд – Нижневолжская наб. –
+                                Канавинский мост – пл. Ленина – ул. Советская – ул. Коммунистическая – ул.Июльских дней
+                                – пр-т Ленина
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 20</div>
+                                <div class="routes__text">Кузнечиха - Аэропорт</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Генерала Ивлиева – ул.Козицкого – ул.Шишкова – ул. Богородского (обратно ул.Ванеева –
+                                ул.Козицкого) – пл.Советская – ул.Ванеева, – пл.Свободы – ул.Варварская – пл.Минина и
+                                Пожарского – Зеленский съезд – Нижневолжская наб. – Канавинский мост – пл. Ленина -
+                                ул.Советская – пл.Революции – ул.Прокофьева – ул.Долгополова (обратно ул. Литвинова) –
+                                ул. Июльских Дней – пр-т Ленина – ул.Веденяпина – Южное шоссе – ул. Гайдара –
+                                ул.Ореховская – ул.Безводная
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 22</div>
+                                <div class="routes__text">Ул. Долгополова – Березовая пойма</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Литвинова (обратно пл.Революции – ул.Прокофьева – ул.Долгополова) – ул.Советская –
+                                Московское ш.
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 23</div>
+                                <div class="routes__text">Дубравная - Козино</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пос. Козино
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 24</div>
+                                <div class="routes__text">Пл. Минина и Пожарского - Афонино</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пл. Минина и Пожарского – ул. Минина – Сенная пл. ул. Родионова – Казанское ш.
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 25</div>
+                                <div class="routes__text">Нефтебаза – «Красное Сормово»</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                … – ул. Коминтерна – ул. Баррикад (обратно – ул. Свободы)
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 26</div>
+                                <div class="routes__text">
+                                    Кузнечиха – ул. Долгополова</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Генерала Ивлиева – ул.Козицкого – ул.Шишкова – ул.Богородского (обратно ул.Ванеева –
+                                ул.Козицкого) – пл.Советская – ул. Бекетова – пр-т Гагарина – пл. Лядова – ул. Б.
+                                Покровкая –
+                                пл. Горького – ул. Маслякова (обратно ул. М. Покровская) – Похвалинский съезд –
+                                Канавинский мост – пл. Ленина – ул. Советская – пл. Революции (обратно ул. Литвинова) –
+                                ул. Прокофьева
+                                (обратно ул. Литвинова) – ул. Долгополова (обратно ул. Литвинова)
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 27</div>
+                                <div class="routes__text">Автостанция «Сенная» - Сады</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Родионова – Сенная пл. - ул. Белинского – пл. Лядова – пр-т Гагарина – ул. Артельная
+                            </div>
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 28</div>
+                                <div class="routes__text">Ул. Усилова – Щелоковский хутор</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Фруктовая – ул.Родионова – пл.Сенная – ул.Горького – ул.Белинского – пл.Лядова –
+                                пр-т Гагарина – ул.Бекетова – ул.Нартова – ул.Медицинская – ул.Братьев Игнатовых–
+                                ул. Горбатовская
+                            </div>
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 30</div>
+                                <div class="routes__text">Пл. Горького - Черепичный</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                л.Горького – пл.Горького – ул.Б.Покровская – пл.Лядова – пр-т Гагарина – ул.Кемеровская
+                                – ул.Кащенко – ул.Героя Шапошникова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 31</div>
+                                <div class="routes__text">Ул. Парижской Коммуны – Нагулино</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Ермолова – ул.Автоматная – ул.Прямая - ул.Некрасова – ул.Детская – ул. Пермякова –
+                                пр-т Бусыгина – ул. Переходникова – пр-т Ленина – ул.Веденяпина – Южное шоссе –
+                                ул.Гайдара –
+                                ул. Ореховская – ул.Рельсовая – ул. Новополевая – Гавриловское ш.
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 32</div>
+                                <div class="routes__text">Ул. Дружаева - Космическая</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Пермякова - пр-т Бусыгина - ул.Дьяконова - пр-т Октября - ул.Веденяпина – ул. Лескова
+                                – ул. Маковского – ул. Мончегорская – ул. Космическая
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 33</div>
+                                <div class="routes__text">Ул. Дружаева – 6-я проходная ГАЗ</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул. Дружаева – 6-я проходная ГАЗ
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 37</div>
+                                <div class="routes__text">Кузнечиха – Ближнеконстантиново</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул. Генерала Ивлиева – ул. Козицкого – ул.Шишкова – ул. Богородского (обратно ул.Ванеева
+                                – ул.Козицкого) – пл.Советская – ул. Бекетова – пр-т Гагарина – ул. Ларина (обратно ул.
+                                Кемеровская) – ул. Кащенко – ул. Ларина – ул. Полевая
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 38</div>
+                                <div class="routes__text"> Кузнечиха – ул. Долгополова</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Мкр-н «Кузнечиха-2» – ул. Козицкого – ул. Шишкова (обратно – 3-й Нагорный мкр-н) –
+                                Универсам (обратно – Институт развития образования) – Советская пл – ул. Ванеева – Пл.
+                                Свободы – пл. Минина и Пожарского – речной вокзал – ул. Стрелка – Московский вокз –
+                                Центральный рынок (обратно Дом торговли) – Конд. Ф-ка им. 1 мая
+
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 40</div>
+                                <div class="routes__text"> Верхние Печеры – Южное шоссе</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Богдановича – Казанское ш. – ул. Касьянова – ул. Верхнепечёрская – ул. Лопатина –
+                                Казанское ш. – ул. Родионова – Сенная пл. – ул. Минина – пл. Минина и Пожарского – ул.
+                                Варварская –
+                                пл. Свободы – ул. Горького – пл. Горького – ул. Б. Покровская – пл. Лядова – Окский
+                                съезд – Молитовский мост – Комсомольская пл. - пр-т Ленина - ул.Веденяпина - Южное шоссе
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus routes--mb">№ 41</div>
+                                <div class="routes__text"> Кузнечиха – Мещерское озеро</div>
+                            </div>
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 43</div>
+                                <div class="routes__text"> Щербинки – ул. Долгополова</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пр-т Ак. Сахарова – пр-т Гагарина – пл. Лядова – ул. Б. Покровская – пл. Горького –
+                                ул. Маслякова (обратно ул. М. Покровская) – Похвалинский съезд – Канавинский мост – пл.
+                                Ленина –
+                                ул. Советская – пл. Революции (обратно ул. Литвинова) – ул. Прокофьева (обратно ул.
+                                Литвинова) –
+                                ул. Долгополова (обратно ул. Литвинова)
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 44</div>
+                                <div class="routes__text"> Московское шоссе – Дубравная</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул. Героя Рябцева – ул. Ярошенко – ул. Чаадаева – ул. Мирошникова – ул. Циолковского –
+                                ул. Светлоярская – пр-т 70 лет Октября – ул. Стрелковая – ул. Планировочная – ул. Новые
+                                Пески –
+                                ул. Ясная – ул. Землячки – ул. Ужгородская
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 45</div>
+                                <div class="routes__text"> Верхние Печеры – ЗКПД-4</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Богдановича – Казанское ш. – ул. Касьянова – ул. Верхнепечёрская – ул. Лопатина –
+                                Казанское ш. – ул. Родионова – Сенная пл. – ул. Минина – пл. Минина и Пожарского –
+                                Зеленский съезд - Нижневолжская наб. - Канавинский мост - пл. Ленина – ул. Советская –
+                                Московское ш. –
+                                ул. Героя Рябцева – ул. Ярошенко – ул. Чаадаева – ул. Мирошникова – ул. Циолковского –
+                                ул. Светлоярская – пр-т 70 лет Октября – пр-т Кораблестроителей – дорога на ЗКПД-4
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 48</div>
+                                <div class="routes__text"> Ул. Долгополова – Сортировочный</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Литвинова (обратно пл.Революции – ул.Прокофьева – ул.Долгополова) – ул.Советская –
+                                Московское ш. – … – ул. Ухтомского – ул. Электровозная – ул. Движенцев – ул.
+                                Гороховецкая
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 51</div>
+                                <div class="routes__text"> Кузнечиха – ЗКПД-4</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Генерала Ивлиева – ул.Козицкого – ул.Шишкова– ул.Богородского (обратно ул.Ванеева -
+                                ул.Козицкого) - пл.Советская – ул. Бекетова – пр-т Гагарина – пл. Лядова – Окский съезд
+                                – Молитовский мост – Комсомольская пл. – Комсомольское ш. – пр-т Героев - …
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 52</div>
+                                <div class="routes__text"> Кузнечиха – Мещерское озеро</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Маршала Рокоссовского – ул. Ванеева – Советская пл. – ул. Н. Сусловой – ул.
+                                Бринского – ул. Родионова – Сенная пл. – ул. Минина – пл. Минина и Пожарского –
+                                Зеленский съезд –
+                                Нижневолжская наб. – Канавинский мост – пл. Ленина – ул. Советская – ул. Должанская –
+                                ул. Мурашкинская – ул. Акимова – Мещерский б-р
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 53</div>
+                                <div class="routes__text"> Щербинки – Березовый клин</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                пр-т Ак. Сахарова – Большеельнинское ш.
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 53А</div>
+                                <div class="routes__text"> Щербинки – Румянцево</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                пр-т Ак. Сахарова – Большеельнинское ш.
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 53Б</div>
+                                <div class="routes__text"> Щербинки – Ройка</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                пр-т Ак. Сахарова – Большеельнинское ш.
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 54</div>
+                                <div class="routes__text"> Метро «Автозаводская» - Доскино</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пр-т Ленина – пр-т Ильича – ул. Красноуральская (обратно ул. Краснодонцев) –
+                                пр-т Молодёжный
+
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 56</div>
+                                <div class="routes__text"> Красное Сормово – Петряевка</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Свободы (обратно ул. Баррикад) – ул. Коминтерна – ул. Страж Революции (обратно –
+                                ул. 50 лет Победы) – пр-т Героев – Комсомольское ш. – пр-т Ленина – пр-т Ильича - ул.
+                                Красноуральская (обратно ул. Краснодонцев) – пр-т Молодёжный
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 57</div>
+                                <div class="routes__text">Мещерское озеро – ЗКПД-4</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Мещерский б-р – ул. Акимова – ул. Мурашкинская - Московское ш. – пр-т Героев –
+                                ул. Просвещенская – ул. Героя Рябцева – ул. Ярошенко – ул. Циолковского – ул.
+                                Светлоярская –
+                                ул. 50 лет Октября – пр-т Кораблестроителей – дорога на ЗКПД-4
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 61</div>
+                                <div class="routes__text"> Верхние Печеры – Ул. Долгополова</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул. Богдановича – Казанское ш. – ул. Касьянова – ул. Верхнепечёрская – ул. Лопатина –
+                                Казанское ш. – ул. Бринского – ул. Н. Сусловой – ул. Ванеева – пл. Свободы – ул.
+                                Варварская –
+                                пл. Минина и Пожарского - - Зеленский съезд - Нижневолжская наб. - Канавинский мост –
+                                пл. Ленина – ул. Советская – пл. Революции (обратно ул. Литвинова) – ул. Прокофьева
+                                (обратно ул. Литвинова) –
+                                ул. Долгополова (обратно ул. Литвинова)
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 62</div>
+                                <div class="routes__text"> Ул. Усилова – Щербинки</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Фруктовая – ул.Родионова – пл.Сенная – ул.Горького – ул.Белинского – ул. Ванеева –
+                                ул. Бекетова – ул. Нартова – Анкудиновское ш. – ул. Полярная – ул. 40 лет Октября – пр-т
+                                Гагарина –
+                                пр-т Ак. Сахарова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 64</div>
+                                <div class="routes__text"> Пл. Свободы – Соцгород-2</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пл. Свободы – ул. Горького – пл. Горького – ул. Б. Покровская – пл. Лядова – Окский
+                                съезд – Молитовский мост – Комсомольская пл. - ул. Молитовская -… ул. Памирская – ул.
+                                Космонавта Комарова – ул. Успенского - … - пр-т Ленина - ул. Переходникова – пр-т
+                                Бусыгина – ул. Дьяконова – ул. Раевского – ул. Строкина - …
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 66</div>
+                                <div class="routes__text"> Щербинки – Мещерское озеро</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пр-т Ак. Сахарова – ул. Ларина – Мызинский мост – ул. Новикова-Прибоя – пр-т Ленина –
+                                ул. Июльских дней - ул. Литвинова (обратно – ул. Долгополова) – пл. Революции – ул.
+                                Советская –
+                                ул. Должанская – ул. Мурашкинская – ул. Акимова – Мещерский б-р
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus routes--mb">№ 68</div>
+                                <div class="routes__text"> Пл. Свободы – Космическая</div>
+                            </div>
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 69</div>
+                                <div class="routes__text"> Мещерское озеро – Южное шоссе</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Мещерский б-р – ул. Акимова – ул. Мурашкинская – Московское ш. - ул.Кузбасская – ул.
+                                Новикова-Прибоя – ул. Переходникова – пр-т Бусыгина – ул.Дьяконова – пр-т Октября -
+                                ул.Веденяпина – Южное шоссе
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 72</div>
+                                <div class="routes__text"> Верхние Печеры - Щербинки</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Богдановича – Казанское ш. – ул. Касьянова – ул. Верхнепечёрская – ул. Лопатина –
+                                Казанское ш. – ул. Бринского – ул. Н. Сусловой – ул. Ванеева – Советская пл. – ул.
+                                Бекетова –
+                                пр-т Гагарина – пр-т Ак. Сахарова
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 73</div>
+                                <div class="routes__text"> Ближнеконстантиново – Соцгород-2</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Полевая - … - ул. Ларина – Мызинский мост – ул. Новикова-Прибоя – ул. Переходникова
+                                – пр-т Бусыгина – ул. Дьяконова – ул. Раевского – ул. Строкина - …
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 77</div>
+                                <div class="routes__text"> Щербинки - Космическая</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Пр-т Ак. Сахарова – ул. Ларина – Мызинский мост - ул. Новикова-Прибоя - пр-т Ленина –
+                                пр-т Ильича – ул. Краснодонцев – ул. Мончегорская – ул. Космическая
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 80</div>
+                                <div class="routes__text"> Кузнечиха – Ул. Долгополова</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                ул.Генерала Ивлиева – ул.Козицкого – ул.Шишкова – ул.Богородского (обратно ул.Ванеева –
+                                ул.Козицкого) – пл.Советская – ул. Бекетова – пр-т Гагарина – пл. Лядова – ул. Б.
+                                Покровкая –
+                                пл. Горького – ул. Маслякова (обратно ул. М. Покровская) – Похвалинский съезд –
+                                Канавинский мост – пл. Ленина – ул. Советская – пл. Революции (обратно ул. Литвинова) –
+                                ул. Прокофьева (обратно ул. Литвинова) – ул. Долгополова (обратно ул. Литвинова)
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 90</div>
+                                <div class="routes__text"> Верхние Печеры – ЗКПД-4</div>
+                            </div>
+                            <div class="routes__text routes__text-block">
+                                <span class="routes__text-black">Следует:</span>
+                                Ул. Богдановича – Казанское ш. – ул. Родионова – Сенная пл. – ул. Минина - пл.Минина и
+                                Пожарского – Зеленский съезд - Нижневолжская наб. - Канавинский мост – пл. Ленина – ул.
+                                Советская – Московское ш. – Сормовское ш. – ул. Коминтерна – ул. Свободы – ул. Б.
+                                Починковская – ул. Бутырская – ул. Новосельская – ул. Баренца – пр-т Кораблестроителей –
+                                дорога на ЗКПД
+
+                            </div>
+
+                        </div>
+                        <div class="routes__stops">
+                            <div class="routes__row">
+                                <div class="routes__number-bus">№ 95</div>
+                                <div class="routes__text"> ул. Долгополова – Дубравная</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="copyright">
+                <p>TRANSMEDIA © 2004</p>
+            </div>
+            <div class="footer-info">
+                <div>
+        </footer>
+        <div class="popup">
+            <img src="" alt="" class="popup__foto">
+            <div class="overlay" onclick="closePopup()"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
